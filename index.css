@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+
+*{ 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+hr{ 
+    border-top: 1px solid lightgray;
+}
+
+.container{
+ 
+    background-color: #e4f1f5;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 50px;
+    width: 100vw;
+    height: 100vw;    
+}
+
+.displayflex{ 
+    display: flex;
+    flex-direction: row;
+
+}
+
+.displayflexcolumna{ 
+    display: flex;
+    flex-direction: column;
+
+}
+
+.spacebetween{ 
+    justify-content: space-between;
+}
+
+.fuente{ 
+    font-family: 'Open Sans',Helvetica,Arial,sans-serif!important;
+
+
+}
+
+
+.fuente-h1{ 
+    font-weight: 300;
+}
+
+.fuente-boton{ 
+    font-weight: 700;
+}
+
+.margen-izquierdo-15{ 
+    margin-left: 15px;
+}
+
+.margen-superior20{ 
+    margin-top: 20px;
+}
+
+.boton{ 
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 20px;
+    padding: 10px 15px 10px 15px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+
+
+.boton:hover{ 
+    background-color: white;
+    color:red;
+    border: 1px solid red;
+    border-radius: 20px;
+    padding: 10px 15px 10px 15px;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+
+.card{ 
+    background-color: ghostwhite;
+    border-radius: 15px;
+    border: 1px solid gray;
+    width: 20%;
+    height: 170px;
+
+}
